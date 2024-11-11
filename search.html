@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search E-carts</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <header>
+        <h1>LPU E-cart Booking</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search.html">Search E-carts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Search for E-carts</h2>
+        <form action="details-page.html" method="GET">
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" required>
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Search</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 LPU E-cart Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
